@@ -74,7 +74,7 @@ body{
 }
 
 button{
-    background-color:   hsl(0, 0%, 30%);
+    background-color: hsl(0, 0%, 30%);
     width: 300px;
     height:40px;
     margin: 0.5rem 0.5rem;
@@ -83,6 +83,7 @@ button{
     border: none;
     font-family: 'inter-semi-bold', sans-serif;
     color: hsl(0, 0%, 100%);
+    transition: background-color 0.5s;
 }
 
 button:hover{
